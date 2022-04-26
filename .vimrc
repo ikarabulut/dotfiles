@@ -13,6 +13,7 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'frazrepo/vim-rainbow'
+Plugin 'tpope/vim-fugitive'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -47,17 +48,6 @@ let mapleader=","
 syntax on
 set background=dark
 colorscheme peachpuff 
-
-""" WILDMENU
-
-" Enable auto completion menu after pressing TAB.
-set wildmenu
-
-" Make wildmenu behave like similar to Bash completion.
-set wildmode=list:longest
-
-" Wildmenu will ignore files with these extensions.
-set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 """""""""""""""""""""""""
 """ KEYBOARD MAPPING """"
